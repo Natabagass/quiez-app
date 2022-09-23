@@ -35,8 +35,6 @@ const Login = () => {
                             <input type="password" placeholder="Silahkan masukkan password..." className="w-full rounded-md mt-2 p-2 text-black" onChange={(e) => {
                                 setPwd(e.target.value)
                             }}/>
-                            <button type="submit" className="flex bg-white mt-8 rounded-lg w-full h-10 justify-center items-center text-violet-400 mb-3" onClick={sendData}>Submit</button>
-                            <a href="" className="underline ">Lupa Password?</a>
                         </div>    
                     </div>
                 </div>
