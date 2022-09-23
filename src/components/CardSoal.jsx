@@ -84,7 +84,7 @@ const CardSoal = ({questions}) => {
         <div className="flex justify-center translate-y-[215px] bg-violet-400 w-fit m-auto px-5 rounded-xl text-white font-bold text-2xl">
             {<Timer />}
         </div>
-        <div className="flex justify-center items-center min-h-screen text-lg">
+        <div className="flex bg-violet-200 justify-center items-center min-h-screen text-lg">
           <div className="flex justify-center shadow-2xl rounded-2xl w-[80%] p-10 bg-violet-400 font-Nunito">
               {loading ? 
               <h1 className="flex animate-bounce animation text-white p-20">Loading...</h1> : 

@@ -37,8 +37,7 @@ const Login = () => {
                             }}/>
                             <button type="submit" className="flex bg-white mt-8 rounded-lg w-full h-10 justify-center items-center text-violet-400 mb-3" onClick={sendData}>Submit</button>
                             <a href="" className="underline ">Lupa Password?</a>
-                        </div>
-                        
+                        </div>    
                     </div>
                 </div>
             </div>
