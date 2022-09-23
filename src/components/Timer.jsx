@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 const Timer = () => {
     const time = new Date();
     const navigate = useNavigate()
-    time.setSeconds(time.getSeconds() + 120);
+    time.setSeconds(time.getSeconds() + 5);
 
         const {seconds, minutes, hours} = useTimer({ expiryTimestamp: time, onExpire: () => {
             alert("times up"),
