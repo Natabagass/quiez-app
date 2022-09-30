@@ -5,7 +5,6 @@ const Navbar = () => {
 
     const logout = () =>{
         localStorage.removeItem('auth');
-        window.location.reload();
         navigate('/')
     }
 
